@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <head>
 <style>
-    table, tr, td{
+  table, tr, td{
         border: 2px solid;
         color: #9700ed;
-    }
+  }
   body{
     background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
   }
+  h2, p{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    color: #D2D0CF;
+    line-height: 90px;
+  }
+  
   .center_image{
     margin-left: auto;
     margin-right: auto;
@@ -16,13 +25,29 @@
   .center_table{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
   }
-  h1, h2, p{
-    text-align: center;
+  .girisekrani{
+    background-image: url("images\girisekrani.jpg");
+    height: 100px;
   }
+  .footerekrani{
+    background-color: #A781D4;
+    height: 40px;
+    margin-top: 90px;
+  }
+  
+  #footerparagraf{
+    text-align: left;
+  }
+  
 </style>
 </head>
 <body>
+  <div class="girisekrani">
+    <h1>Kişisel Web Sayfası</h1>
+  </div>
+  <div>
     <table class="center_table">
         <tr>
           <td class="center_table" colspan="3">
@@ -30,18 +55,23 @@
           </td>
         </tr>
         <tr>
-          <td><h1>Erdoğan Duman</h1></td>
+          <td><h2>Erdoğan Duman</h2></td>
         </tr>
         <tr>
           <td>
             <h2>Eğitim</h2>
-            <p>Marmara Üniversitesi Teknoloji Fakültesi<br>Bilgisayar Mühendisliği bölümünde<br>okuyorum.</p>
+            <p align="center">Marmara Üniversite Teknoloji Fakültesi<br>Bilgisayar Mühendisliği bölümünde<br>okuyorum.</p>
           </td>
         </tr>
         <tr>
           <td><h2>Dil Becerileri</h2>
-            <p>İngilizce - Orta Seviye<br>Almanca - Orta Seviye(TestDaF TDN3(B2))</p>
+            <p>İngilizce - Orta Seviye<br>Almanca - Orta Seviye(TestDaF TDN3(B2))
           </td>        
         </tr>
     </table>
+  </div>
+    <div class="footerekrani">
+    <footer>
+      <p id="footerparagraf">Tüm hakları saklıdır.©</p>
+  </div>
 </body>
